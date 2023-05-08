@@ -12,7 +12,7 @@ export default function App() {
   function addGoalHAndler() {
     setCourseGoals(currentCourseGoals =>
       [...currentCourseGoals,
-        enteredGoalText
+        enteredGoalText,
       ]);
   }
 
