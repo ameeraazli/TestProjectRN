@@ -4,9 +4,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View>
-      <Text> Welcome to Ameera's App </Text>
+      <Text style={styles.dummyText}> Welcome to Ameera's App </Text>
       </View>
-      <Text style={{ margin: 16, borderWidth: 1, borderColor: 'blue', padding: 16 }}>Awesomeness reload: </Text>
+      <Text style={styles.dummyText}>Awesomeness reload: </Text>
       <Button title='Tap me!' />
     </View>
   );
@@ -19,4 +19,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  dummyText: {
+    margin: 16,
+    borderWidth: 2,
+    borderColor: 'blue',
+    padding: 16,
+  }
 });
